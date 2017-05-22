@@ -5,7 +5,7 @@ class MainController extends Controller{
 	function render($f3){
 
 		$products = new Products($this->db);
-		$product = $products->all()[1];
+		$product = $products->all()[0];
 
 		$f3->set('product',$product);
 		$template=new Template;
