@@ -4,10 +4,25 @@ class MainController extends Controller{
 
 	function render($f3){
 
-		$f3->set('name','world');
+		$products = new Products($this->db);
+		$product = $products->all()[1];
+
+		$f3->set('product',$product);
 		$template=new Template;
 		echo $template->render('welcome.htm');
+		$this->adddd();
+
 	}
+
+	function adddd() {
+
+		$product = new Products($this->db);
+		$product->productName = 'Bane';
+		$product->productDescription = 'Hang them where the world can see.';
+		$product->save();
+
+	}
+
 
 
 }

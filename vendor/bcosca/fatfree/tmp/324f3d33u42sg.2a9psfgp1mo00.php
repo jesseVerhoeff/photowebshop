@@ -19,8 +19,8 @@
 </head>
 <body>
 <div class="jumbotron">
-	<h1>Hello, world!</h1>
-	
+	<h1>Hello, <?php echo $product['productDescription']; ?>!</h1>
+
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
