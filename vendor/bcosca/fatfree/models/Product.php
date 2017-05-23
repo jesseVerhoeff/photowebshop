@@ -1,6 +1,6 @@
 <?php
 
-class Products extends DB\SQL\Mapper{
+class Product extends DB\SQL\Mapper{
 
 	public function __construct(DB\SQL $db)
 	{

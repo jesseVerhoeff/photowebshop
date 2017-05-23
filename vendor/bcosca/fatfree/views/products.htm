@@ -1,0 +1,26 @@
+<h1>Hello, {{@product.productName}}!</h1>
+
+
+<div class="row">
+
+    <repeat group="{{ @product }}" value="{{ @products }}" >
+        {{@products}}
+    </repeat>
+
+<!--   <repeat group="{{@product}}" value="{{@product}}">-->
+<!--        <h2>{{@product}}</h2>-->
+<!--       <img src="{{ '../uploads/'.@product.productLink }}" />-->
+<!--    </repeat>-->
+
+<!--    <div class="col-sm-6 col-md-4">-->
+<!--        <div class="thumbnail">-->
+<!--            <img src="{{ '../uploads/'.@product.productLink }}" alt="...">-->
+<!--            <div class="caption">-->
+<!--                <h3>{{@product.productName}}</h3>-->
+<!--                <p>{{@product.productDescription}}</p>-->
+<!--                <p><a href="#" class="btn btn-primary" role="button">Button</a></p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+</div>

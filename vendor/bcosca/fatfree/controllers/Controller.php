@@ -6,14 +6,36 @@ class Controller {
     protected $db;
 
 	function beforeroute(){
+
+	    if($this->f3->get('SESSION.userUsername') ==! null) {
+
+			$this->f3->reroute('/admin');
+			exit;
+		}
+
 		?>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Ph. Otto Graaf</title>
+
+            <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+        </head>
 		<div  class="col-md-12">
 		<ul class="nav nav-tabs">
-			<li role="presentation" class="active"><a href="#">Home</a></li>
-			<li role="presentation"><a href="#">Profile</a></li>
+			<li role="presentation" class="active"><a href="/">Home</a></li>
+			<li role="presentation"><a href="/products">Products</a></li>
 			<li role="presentation"><a href="#">Messages</a></li>
 			<li role="presentation"><a href="#">Messages</a></li>
-            <li role="presentation" class="pull-right"><a href="/login">Login</a></li>
+<!--            <li role="presentation" class="pull-right"><a href="/login">Login</a></li>-->
 		</ul>
 
 		<?php
@@ -22,6 +44,7 @@ class Controller {
 	function afterroute(){
 		?>
 		</div>
+        </html>
 		<?php
 	}
 
