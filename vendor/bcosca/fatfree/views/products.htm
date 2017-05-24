@@ -1,26 +1,30 @@
-<h1>Hello, {{@product.productName}}!</h1>
+<h1>Hello, {{@product.0.productName}}!</h1>
 
 
 <div class="row">
 
-    <repeat group="{{ @product }}" value="{{ @products }}" >
-        {{@products}}
-    </repeat>
+<repeat group="{{ @product}}" value="{{@item}}">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <check if="{{ @item.productType=='0' }}">
+                <img src="{{ '../uploads/'.@item.productLink }}" alt="..." height="1920" width="1080">
+            </check>
+            <check if="{{ @item.productType=='1' }}">
+                <video width="1920" height="1080" controls>
+                    <source src="{{ '../uploads/'.@item.productLink }}" type="video/mp4">
 
-<!--   <repeat group="{{@product}}" value="{{@product}}">-->
-<!--        <h2>{{@product}}</h2>-->
-<!--       <img src="{{ '../uploads/'.@product.productLink }}" />-->
-<!--    </repeat>-->
+                </video>
+            </check>
 
-<!--    <div class="col-sm-6 col-md-4">-->
-<!--        <div class="thumbnail">-->
-<!--            <img src="{{ '../uploads/'.@product.productLink }}" alt="...">-->
-<!--            <div class="caption">-->
-<!--                <h3>{{@product.productName}}</h3>-->
-<!--                <p>{{@product.productDescription}}</p>-->
-<!--                <p><a href="#" class="btn btn-primary" role="button">Button</a></p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+            <div class="caption">
+                <h3>{{@item.productName}}</h3>
+                <p>{{@item.productDescription}}</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+            </div>
+        </div>
+    </div>
+</repeat>
+
+
 
 </div>

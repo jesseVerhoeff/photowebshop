@@ -3,9 +3,11 @@
 
 <div class="row">
 
-    <?php foreach ((array $product?:[]) as mixed $products): ?>
-        <?php echo $products; ?>
-    <?php endforeach; ?>
+    <!--<?php foreach (($products?:[]) as $product): ?>-->
+        <!--<?php echo $product; ?>-->
+    <!--<?php endforeach; ?>-->
+
+    <p>Hello,!</p>
 
 <!--   <?php foreach (($product?:[]) as $product): ?>-->
 <!--        <h2><?php echo $product; ?></h2>-->

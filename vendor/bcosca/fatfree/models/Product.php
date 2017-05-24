@@ -8,8 +8,8 @@ class Product extends DB\SQL\Mapper{
 	}
 
 	public function all() {
-		$this->load();
-		return $this->query;
+		return $this->db->exec('SELECT * FROM products');
+
 	}
 
 	public function getById($id) {
