@@ -6,7 +6,7 @@ class CartController extends Controller
 	function render($f3)
 	{
 
-//		array_push($_SESSION['cart'],'48');
+//		array_push($_SESSION['cart'],'1');
 //		var_dump($_SESSION['cart']);
 
 //		$products = new Product($this->db);
@@ -51,7 +51,7 @@ class CartController extends Controller
 //		echo "<br><br><br>";
 //		var_dump($arraydel);
 		unset($_SESSION['cart'][$arraydel]);
-
+		$this->f3->reroute('/shoppingcart');
 	}
 
 }
