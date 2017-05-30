@@ -9,7 +9,7 @@
     <repeat group="{{ @cart}}" value="{{@item}}">
         <div class="item">
             <div class="buttons">
-                <!--<a href="/productDelete/" class="delete-btn" role="button">Delete</a>-->
+                <a href="/itemdelete/{{@item.0.productId}}/" class="delete-btn" role="button">Delete</a>
 
             </div>
             <p>{{@item}}</p>

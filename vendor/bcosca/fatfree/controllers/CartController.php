@@ -43,11 +43,13 @@ class CartController extends Controller
 		echo $template->render('cart.htm');
 	}
 
-	function deleteproduct() {
+	function deleteproduct($f3, $params) {
 
-		$arraydel = array_search('80', $_SESSION['cart']);
-		echo "<br><br><br>";
-		var_dump($arraydel);
+//		$delItem = $f3->get('PARAMS.item');
+		echo $params['item'];
+		$arraydel = array_search($params['item'], $_SESSION['cart']);
+//		echo "<br><br><br>";
+//		var_dump($arraydel);
 		unset($_SESSION['cart'][$arraydel]);
 
 	}

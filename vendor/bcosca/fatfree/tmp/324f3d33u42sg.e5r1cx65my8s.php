@@ -9,7 +9,7 @@
     <?php foreach (($cart?:[]) as $item): ?>
         <div class="item">
             <div class="buttons">
-                <!--<a href="/productDelete/" class="delete-btn" role="button">Delete</a>-->
+                <a href="/itemdelete/<?php echo $item[0]['productId']; ?>/" class="delete-btn" role="button">Delete</a>
 
             </div>
             <p><?php echo $item; ?></p>
