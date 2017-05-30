@@ -13,8 +13,8 @@ class Product extends DB\SQL\Mapper{
 	}
 
 	public function getById($id) {
-		$this->load(array('id=?',$id));
-		return $this->query;
+		return $this->db->exec("SELECT * FROM products WHERE productId = '$id'");
+
 	}
 
 	public function add() {

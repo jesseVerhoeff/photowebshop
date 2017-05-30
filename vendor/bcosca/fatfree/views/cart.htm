@@ -1,0 +1,32 @@
+<div class="shopping-cart">
+    <link href="../ui/css/cart.css" rel="stylesheet">
+<!-- Title -->
+<div class="title">
+    Shopping Cart
+</div>
+
+<!-- Product #1 -->
+    <repeat group="{{ @cart}}" value="{{@item}}">
+        <div class="item">
+            <div class="buttons">
+                <!--<a href="/productDelete/" class="delete-btn" role="button">Delete</a>-->
+
+            </div>
+            <p>{{@item}}</p>
+
+            <div class="image">
+                <img src="{{ '../uploads/'.@item.0.productLink }}" alt="" height="108" width="192" />
+            </div>
+
+            <div class="description">
+                <span>{{@item.0.productName}}</span>
+
+                <span>{{@item.0.productDescription}}</span>
+            </div>
+
+            <div class="total-price">${{@item.0.productPrice}}</div>
+        </div>
+    </repeat>
+
+
+</div>

@@ -7,11 +7,18 @@ class Controller {
 
 	function beforeroute(){
 
-	    if($this->f3->get('SESSION.userUsername') ==! null) {
+//	    if($this->f3->get('SESSION.userUsername') == null) {
+//
+//			$this->f3->reroute('/');
+//			exit;
+//		}
 
-			$this->f3->reroute('/admin');
-			exit;
-		}
+        session_start();
+
+        if(empty($_SESSION['cart'])) {
+            $_SESSION['cart'] = array();
+        }
+
 
 		?>
         <!DOCTYPE html>
@@ -27,6 +34,7 @@ class Controller {
 
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
 
         </head>
 		<div  class="col-md-12">

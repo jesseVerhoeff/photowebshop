@@ -10,7 +10,7 @@ class MainController extends Controller{
 		$f3->set('product',$product);
 		$template=new Template;
 		echo $template->render('welcome.htm');
-		$this->adddd();
+		//$this->adddd();
 
 	}
 
