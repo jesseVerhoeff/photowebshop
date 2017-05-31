@@ -12,8 +12,15 @@
                 <a href="/itemdelete/<?php echo $item[0]['productId']; ?>/" class="delete-btn" role="button">Delete</a>
 
             </div>
-            <p><?php echo $item; ?></p>
+            <?php if ($item[0]['productType']=='0'): ?>
+                
+                    <p>Photo</p>
+                
+                <?php else: ?>
+                    <p>Video</p>
+                
 
+            <?php endif; ?>
             <div class="image">
                 <img src="<?php echo '../uploads/'.$item[0]['productLink']; ?>" alt="" height="108" width="192" />
             </div>

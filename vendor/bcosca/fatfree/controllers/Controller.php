@@ -7,11 +7,11 @@ class Controller {
 
 	function beforeroute(){
 
-//	    if($this->f3->get('SESSION.userUsername') == null) {
-//
-//			$this->f3->reroute('/');
-//			exit;
-//		}
+	    if($this->f3->get('SESSION.userUsername') == null) {
+
+			$this->f3->reroute('/login');
+			exit;
+		}
 
         session_start();
 
@@ -43,7 +43,8 @@ class Controller {
 			<li role="presentation"><a href="/products">Products</a></li>
 			<li role="presentation"><a href="#">Messages</a></li>
 			<li role="presentation"><a href="#">Messages</a></li>
-<!--            <li role="presentation" class="pull-right"><a href="/login">Login</a></li>-->
+            <li role="presentation" class="pull-right"><a href="/login">Login</a></li>
+            <li role="presentation" class="pull-right"><a href="/shoppingcart">Shopping cart</a></li>
 		</ul>
 
 		<?php

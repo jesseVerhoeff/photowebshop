@@ -19,7 +19,7 @@
             <div class="caption">
                 <h3><?php echo $item['productName']; ?></h3>
                 <p><?php echo $item['productDescription']; ?></p>
-                <p><a href="#" class="btn btn-primary" role="button">Add</a></p>
+                <p><a href="/addproduct/<?php echo $item['productId']; ?>" class="btn btn-primary" role="button">Add</a></p>
             </div>
         </div>
     </div>

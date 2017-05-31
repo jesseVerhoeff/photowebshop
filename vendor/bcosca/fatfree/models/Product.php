@@ -17,9 +17,8 @@ class Product extends DB\SQL\Mapper{
 
 	}
 
-	public function add() {
-		$this->copyfrom('POST');
-		$this->save();
+	public function add($productName, $productDescription, $productPrice ) {
+		return $this->db->exec("INSERT INTO products (productName, productDescription, productPrice) VALUES ('$productName','$productDescription','$productPrice') ");
 	}
 
 	public function edit($id) {
