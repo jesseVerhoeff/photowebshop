@@ -1,0 +1,1 @@
+<img src="/teste?image=../uploads/Bane.jpg&watermerk=../uploads/smallwatermark.jpg" />

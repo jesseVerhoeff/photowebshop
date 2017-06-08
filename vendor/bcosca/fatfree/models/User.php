@@ -23,9 +23,8 @@ class User extends DB\SQL\Mapper{
 		return $this->query;
 	}
 
-	public function add() {
-		$this->copyfrom('POST');
-		$this->save();
+	public function add($userEmail, $password, $userName, $userLastname, $userUsername, $userStreet, $userZipcode, $usercity, $userHomenumber) {
+		return $this->db->exec("INSERT INTO user (userEmail, userPassword, userName, userLastname, userUsername, userStreet, userZipcode, usercity, userHomenumber) VALUES ('$userEmail', '$password','$userName', '$userLastname', '$userUsername', '$userStreet','$userZipcode', '$usercity', '$userHomenumber') ");
 	}
 
 	public function edit($id) {

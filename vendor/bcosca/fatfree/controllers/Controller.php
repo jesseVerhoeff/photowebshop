@@ -37,7 +37,10 @@ class Controller {
 
 
         </head>
-		<div  class="col-md-12">
+		<div  class="col-md-12" style="
+    padding-right: 0px;
+    padding-left: 0px;
+">
 		<ul class="nav nav-tabs">
 			<li role="presentation" class="active"><a href="/">Home</a></li>
 			<li role="presentation"><a href="/products">Products</a></li>

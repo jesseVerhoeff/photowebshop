@@ -13,10 +13,34 @@
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
 </head>
-<body>
-<div class="jumbotron">
-	<h1>Hello, <?php echo $product['productDescription']; ?>!</h1>
+<body 	>
+<div class="col-md-12" style="
+    padding-right: 0;
+    padding-left: 0;
+">
+<div class="jumbotron" style="
+    padding-right: 15px;
+    padding-left: 15px;
+">
+	<h1>Ph. Otto Graaf</h1>
+	<h2>Camera Obscura straat 101,0000 Digistad</h2>
 
+</div>
+<div class="col-md-12">
+	<div class="col-md-2"></div>
+<div class="col-md-6">
+	<img src="../lib/watermark.php?image=./<?php echo '../uploads/'.$product['productLink']; ?>&watermerk=../uploads/smallwatermark.jpg" alt="..." height="270" width="480">
+</div>
+	<div class="col-md-4">
+		<ul class="list-group">
+			<li class="list-group-item">Landen</li>
+			<li class="list-group-item">modellen</li>
+			<li class="list-group-item">Nieuws</li>
+
+		</ul>
+	</div>
+
+</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

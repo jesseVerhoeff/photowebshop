@@ -7,7 +7,8 @@
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
             <?php if ($item['productType']=='0'): ?>
-                <img src="<?php echo '../uploads/'.$item['productLink']; ?>" alt="..." height="1080" width="1920">
+                <img src="../lib/watermark.php?image=./<?php echo '../uploads/'.$item['productLink']; ?>&watermerk=../uploads/smallwatermark.jpg" alt="..." height="1080" width="1920">
+
             <?php endif; ?>
             <?php if ($item['productType']=='1'): ?>
                 <video width="466" controls controlsList="nodownload nofullscreen noremoteplayback">

@@ -27,10 +27,16 @@
                     </div>
                 </div>
 
+                <!--Photo upload-->
+
                 <div class="form-group row">
                     <input type="file" name="fileToUpload" id="fileToUpload">
-
+                    <p>Voorbeeld:</p> <img src="" id="preview" alt="" height="108" width="192">
                 </div>
+
+
+
+
                 <button class="btn btn-primary " type="submit">Add product</button>
 
                 </form>
@@ -38,4 +44,28 @@
             </div>
 
         </div>
+
+
+    <script type="text/javascript">
+        var fileTag = document.getElementById("fileToUpload"),
+            preview = document.getElementById("preview");
+
+        fileTag.addEventListener("change", function() {
+            changeImage(this);
+        });
+
+        function changeImage(input) {
+            var reader;
+
+            if (input.files && input.files[0]) {
+                reader = new FileReader();
+
+                reader.onload = function(e) {
+                    preview.setAttribute('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
 
