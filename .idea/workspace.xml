@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc62815c-6b31-447c-8576-a514da9cae20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/lib/decrypt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/lib/encrypt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/video.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/Controller.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/OrderController.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/OrderController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/ProductController.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/ProductController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/UserController.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/css/bootstrap.css" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/css/signin.css" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/css/signin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/routes.ini" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/routes.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.2a9psfgp1mo00.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.2a9psfgp1mo00.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.39kg1g3ro400c.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.39kg1g3ro400c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.e5r1cx65my8s.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.e5r1cx65my8s.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.1wckbtre3674g.sql" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.1wckbtre3674g.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.4xuqg7rde6ck.sql" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.4xuqg7rde6ck.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.dbhv928i4s5kuoblecf80bfh44.@" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.dbhv928i4s5kuoblecf80bfh44.@" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/cart.htm" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/cart.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +29,8 @@
       <file leaf-file-name="welcome.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+            <state relative-caret-position="525">
+              <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="products.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/lib/image.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-98">
+              <caret line="469" column="13" lean-forward="false" selection-start-line="469" selection-start-column="13" selection-end-line="469" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -90,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="image.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/image.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-960">
-              <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="186">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -113,7 +102,7 @@
       <file leaf-file-name="video.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
+            <state relative-caret-position="126">
               <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
               <folding />
             </state>
@@ -135,16 +124,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/login.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -309,6 +288,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -516,7 +496,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -654,18 +633,19 @@
       <workItem from="1496835449122" duration="9498000" />
       <workItem from="1496919671785" duration="3447000" />
       <workItem from="1496941043437" duration="2080000" />
-      <workItem from="1496994221355" duration="4169000" />
+      <workItem from="1496994221355" duration="4191000" />
+      <workItem from="1497001177345" duration="1291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94672000" />
+    <option name="totallyTimeSpent" value="95985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33351237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33834586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30075186" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -718,13 +698,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496509715.jpg" />
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/watermark.png" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/lib/image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="469" column="13" lean-forward="false" selection-start-line="469" selection-start-column="13" selection-end-line="469" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/watermark.jpeg" />
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/photo_stamp.png" />
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/Bane.jpg">
@@ -746,11 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <marker date="1496837667613" expanded="true" signature="184:206" ph="SELECT * FRO... products" />
-            <marker date="1496837667613" expanded="true" signature="273:319" ph="SELECT * FRO... products" />
-            <marker date="1496837667613" expanded="true" signature="456:645" ph="INSERT INTO products... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,9 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="86" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="86" />
-          <folding>
-            <marker date="1496920652579" expanded="true" signature="545:819" ph="INSERT INTO user... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-441">
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +910,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
+        <state relative-caret-position="126">
           <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding />
         </state>
@@ -987,18 +932,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        <state relative-caret-position="525">
+          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1008,8 +945,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/lib/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="469" column="13" lean-forward="false" selection-start-line="469" selection-start-column="13" selection-end-line="469" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding />
         </state>
       </provider>
