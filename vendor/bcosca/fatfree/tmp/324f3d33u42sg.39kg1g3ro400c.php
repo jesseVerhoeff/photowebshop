@@ -1,4 +1,4 @@
-<h1>Hello, <?php echo $product[0]['productName']; ?>!</h1>
+<h1>Hello, <?php echo $username; ?>!</h1>
 
 
 <div class="row">
@@ -7,7 +7,8 @@
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
             <?php if ($item['productType']=='0'): ?>
-                <img src="../lib/watermark.php?image=./<?php echo '../uploads/'.$item['productLink']; ?>&watermerk=../uploads/smallwatermark.jpg" alt="..." height="1080" width="1920">
+                <!--<img src="../lib/watermark.php?image=./<?php echo '../uploads/'.$item['productLink']; ?>&watermerk=../uploads/smallwatermark.jpg" alt="..." height="1080" width="1920">-->
+                <p><img src="/image.php?a=img=<?php echo $item['productLink']; ?>-w_img=smallwatermark.jpg-w_w=200-w_h=50"  alt="..."  width="%100"></p>
 
             <?php endif; ?>
             <?php if ($item['productType']=='1'): ?>

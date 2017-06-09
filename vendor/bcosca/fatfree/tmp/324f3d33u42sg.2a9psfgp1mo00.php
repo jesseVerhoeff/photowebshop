@@ -26,6 +26,13 @@
 	<h2>Camera Obscura straat 101,0000 Digistad</h2>
 
 </div>
+
+	<p><img src="/image.php?a=img=Bane.jpg-w_img=smallwatermark.jpg-w_w=200-w_h=50"></p>
+
+	<video controls controlsList="nodownload">
+		<source src="/video.php?a=video=Snake.mp4">
+	</video>
+
 <div class="col-md-12">
 	<div class="col-md-2"></div>
 <div class="col-md-6">

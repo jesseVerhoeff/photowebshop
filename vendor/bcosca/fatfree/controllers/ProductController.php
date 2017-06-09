@@ -7,7 +7,9 @@ class ProductController extends Controller{
 		$products = new Product($this->db);
 		$product = $products->all($this->db);
 
+		$username = $this->f3->get('SESSION.userUsername');
 		$f3->set('product',$product);
+		$f3->set('username',$username);
 		$template=new Template;
 		echo $template->render('products.htm');
 

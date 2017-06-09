@@ -36,4 +36,7 @@
     <?php endforeach; ?>
 
 
+    <a class="btn btn-lg btn-primary " href="/" type="submit">Bestellen</a>
+
+
 </div>

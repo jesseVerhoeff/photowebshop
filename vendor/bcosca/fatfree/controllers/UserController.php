@@ -8,6 +8,14 @@ class UserController extends Controller {
 		echo $template->render('login.htm');
 	}
 
+	function logout()
+	{
+		$this->f3->clear('SESSION.userUsername');
+		$this->f3->clear('SESSION.userId');
+		$this->f3->clear('SESSION.cart');
+		$this->f3->reroute('/login');
+	}
+
 	function beforeroute()
 	{
 
@@ -28,6 +36,7 @@ class UserController extends Controller {
 
 		if(password_verify($password, $user->userPassword)){
 			$this->f3->set('SESSION.userUsername',$user->userUsername);
+			$this->f3->set('SESSION.userId',$user->userId);
 			$this->f3->reroute('/');
 
 		}

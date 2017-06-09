@@ -1,4 +1,4 @@
-<h1>Hello, {{@product.0.productName}}!</h1>
+<h1>Hello, {{@username}}!</h1>
 
 
 <div class="row">
@@ -7,7 +7,8 @@
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
             <check if="{{ @item.productType=='0' }}">
-                <img src="../lib/watermark.php?image=./{{ '../uploads/'.@item.productLink }}&watermerk=../uploads/smallwatermark.jpg" alt="..." height="1080" width="1920">
+                <!--<img src="../lib/watermark.php?image=./{{ '../uploads/'.@item.productLink }}&watermerk=../uploads/smallwatermark.jpg" alt="..." height="1080" width="1920">-->
+                <p><img src="/image.php?a=img={{@item.productLink }}-w_img=smallwatermark.jpg-w_w=200-w_h=50"  alt="..."  width="%100"></p>
 
             </check>
             <check if="{{ @item.productType=='1' }}">

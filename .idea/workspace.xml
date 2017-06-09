@@ -5,27 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc62815c-6b31-447c-8576-a514da9cae20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/smallwatermark.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/OrderController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/RegisterController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/lib/watermark.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/register.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/test.htm" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/test.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/lib/decrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/lib/encrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/video.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/AdminAddController.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/AdminAddController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/Controller.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/OrderController.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/OrderController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/ProductController.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/ProductController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/models/Product.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/models/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/models/User.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/UserController.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/css/bootstrap.css" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/css/signin.css" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/css/signin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/routes.ini" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/routes.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.1lxil7p0zue8o.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.1lxil7p0zue8o.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.2a9psfgp1mo00.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.2a9psfgp1mo00.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.39kg1g3ro400c.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.39kg1g3ro400c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.e5r1cx65my8s.php" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/324f3d33u42sg.e5r1cx65my8s.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.1wckbtre3674g.sql" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.1wckbtre3674g.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.4xuqg7rde6ck.sql" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.4xuqg7rde6ck.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/admin/addProduct.htm" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/admin/addProduct.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.dbhv928i4s5kuoblecf80bfh44.@" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/tmp/cache/324f3d33u42sg.dbhv928i4s5kuoblecf80bfh44.@" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/cart.htm" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/cart.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm" afterPath="$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm" />
     </list>
@@ -48,63 +47,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="routes.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/routes.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/OrderController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/RegisterController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="86" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="86" />
-              <folding>
-                <marker date="1496920652579" expanded="true" signature="545:819" ph="INSERT INTO user... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="welcome.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="266">
+              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -113,45 +60,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/models/Product.php">
+      <file leaf-file-name="products.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <marker date="1496837667613" expanded="true" signature="184:206" ph="SELECT * FRO... products" />
-                <marker date="1496837667613" expanded="true" signature="273:319" ph="SELECT * FRO... products" />
-                <marker date="1496837667613" expanded="true" signature="456:645" ph="INSERT INTO products... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/register.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="67" />
+            <state relative-caret-position="336">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm">
+      <file leaf-file-name="CartController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/CartController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminAddController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/AdminAddController.php">
+      <file leaf-file-name="layout.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/ui/layout.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="231">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/image.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-960">
+              <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/ProductController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/video.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/cart.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userref.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/ui/userref.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/login.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -177,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/classes/test.php" />
-        <option value="$PROJECT_DIR$/classes/home.php" />
         <option value="$PROJECT_DIR$/controller/home.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controller/Home.php" />
@@ -187,7 +178,6 @@
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controller/Home.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/models/products.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/models/Products.php" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/css/signin.css" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/login.htm" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/config.ini" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/index.php" />
@@ -200,7 +190,6 @@
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/js/cart.js" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/models/Cart.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/CartController.php" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/cart.htm" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/ui/css/cart.css" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/admin/AccountController.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/admin/RestrictedController.php" />
@@ -210,22 +199,28 @@
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/test.html" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/lib/watermark.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/test.htm" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/admin/addProduct.htm" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/AdminAddController.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/models/Product.php" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/Controller.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/orderController.php" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/OrderController.php" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/registerController.php" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/routes.ini" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/models/User.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/register.htm" />
-        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/RegisterController.php" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/routes.ini" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/cart.htm" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/OrderController.php" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/css/signin.css" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/lib/encrypt.php" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/image.php" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/video.php" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm" />
+        <option value="$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm" />
       </list>
     </option>
   </component>
@@ -314,7 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,7 +405,85 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photoweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photoweb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bcosca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fatfree" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photoweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photoweb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bcosca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fatfree" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photoweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photoweb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bcosca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fatfree" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,6 +516,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,18 +526,18 @@
     <property name="ToolWindowDatabase.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\uploads" />
-      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\ui" />
-      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\views\admin" />
-      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\controllers" />
-      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\ui" />
       <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\models" />
       <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\uploads" />
       <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\lib" />
+      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree" />
+      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\uploads" />
+      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\ui" />
+      <recent name="C:\xampp\htdocs\photoweb\vendor\bcosca\fatfree\views\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -579,18 +652,20 @@
       <workItem from="1496738409588" duration="3657000" />
       <workItem from="1496748319993" duration="57000" />
       <workItem from="1496835449122" duration="9498000" />
-      <workItem from="1496919671785" duration="1953000" />
+      <workItem from="1496919671785" duration="3447000" />
+      <workItem from="1496941043437" duration="2080000" />
+      <workItem from="1496994221355" duration="4169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86929000" />
+    <option name="totallyTimeSpent" value="94672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32384533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33351237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30075186" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -622,20 +697,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496490862.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496490742.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496491041.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508032.PNG" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508432.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508669.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508626.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508615.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508491.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508904.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508706.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508951.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508933.jpg" />
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496508972.jpg" />
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496509070.jpg" />
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496509056.jpg" />
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/1496509043.jpg" />
@@ -664,74 +725,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/test.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/lib/watermark.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/watermark.jpeg" />
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/photo_stamp.png" />
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/uploads/Bane.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="e#904#960#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/cart.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/admin/addProduct.htm">
@@ -741,30 +739,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/login.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="57" lean-forward="false" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/register.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,17 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -798,6 +761,13 @@
           <folding>
             <marker date="1496920652579" expanded="true" signature="545:819" ph="INSERT INTO user... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/routes.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -809,34 +779,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/UserController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="1029">
+          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/routes.ini">
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/css/signin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/OrderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/lib/watermark.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/lib/decrypt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/lib/encrypt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/order.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/register.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/test.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/login.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/ui/userref.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/ui/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/ui/css/cart.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/ui/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/cart.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/ui/layout.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/welcome.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bcosca/fatfree/views/products.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
