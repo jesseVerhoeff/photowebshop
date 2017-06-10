@@ -77,10 +77,10 @@ $watermarkHeight = (isset($data['w_h'])) ? $data['w_h'] : null;
 
 if ($watermark !== null && file_exists(IMG_DIR . $watermark)) {
     if ($watermarkWidth === null) {
-        $watermarkWidth = 100;
+        $watermarkWidth = 80;
     }
     if ($watermarkHeight === null) {
-        $watermarkHeight = 100;
+        $watermarkHeight = 80;
     }
 
     $watermark = imagecreatefromstring(file_get_contents(IMG_DIR . $watermark));

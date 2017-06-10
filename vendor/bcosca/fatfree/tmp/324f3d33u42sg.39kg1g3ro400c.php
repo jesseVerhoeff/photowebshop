@@ -1,4 +1,10 @@
-<h1>Hello, <?php echo $username; ?>!</h1>
+<?php if ($username==NULL): ?>
+    <h1>Hello, user!</h1>
+<?php endif; ?>
+
+<?php if ($username!=NULL): ?>
+    <h1>Hello, <?php echo $username; ?>!</h1>
+<?php endif; ?>
 
 
 <div class="row">
@@ -8,13 +14,16 @@
         <div class="thumbnail">
             <?php if ($item['productType']=='0'): ?>
                 <!--<img src="../lib/watermark.php?image=./<?php echo '../uploads/'.$item['productLink']; ?>&watermerk=../uploads/smallwatermark.jpg" alt="..." height="1080" width="1920">-->
-                <p><img src="/image.php?a=img=<?php echo $item['productLink']; ?>-w_img=smallwatermark.jpg-w_w=200-w_h=50"  alt="..."  width="%100"></p>
+                <img src="/image.php?a=img=<?php echo $item['productLink']; ?>-w_img=smallwatermark.jpg-w_w=100-w_h=100"  alt="..."  >
 
             <?php endif; ?>
             <?php if ($item['productType']=='1'): ?>
-                <video width="466" controls controlsList="nodownload nofullscreen noremoteplayback">
-                    <source src="<?php echo '../uploads/'.$item['productLink']; ?>"  type="video/mp4">
+                <!--<video width="466" controls controlsList="nodownload nofullscreen noremoteplayback">-->
+                    <!--<source src="<?php echo '../uploads/'.$item['productLink']; ?>"  type="video/mp4">-->
 
+                <!--</video>-->
+                <video width="466" controls controlsList="nodownload nofullscreen noremoteplayback">
+                    <source src="/video.php?a=video=<?php echo $item['productLink']; ?>"  type="video/mp4">
                 </video>
             <?php endif; ?>
 

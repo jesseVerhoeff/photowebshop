@@ -7,11 +7,11 @@ class Controller {
 
 	function beforeroute(){
 
-	    if($this->f3->get('SESSION.userUsername') == null) {
-
-			$this->f3->reroute('/login');
-			exit;
-		}
+//	    if($this->f3->get('SESSION.userUsername') == null) {
+//
+//			$this->f3->reroute('/login');
+//			exit;
+//		}
 
         session_start();
 

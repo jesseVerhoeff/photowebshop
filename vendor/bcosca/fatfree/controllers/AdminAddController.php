@@ -5,9 +5,16 @@ class AdminAddController extends Controller {
 
 	function render(){
 
+		if($this->f3->get('SESSION.adminUsername') == null) {
+
+			$this->f3->reroute('/admin/login');
+			exit;
+		}
+
 		$template=new Template;
 		echo $template->render('admin/addProduct.htm');
 	}
+
 
 	function addProduct($f3)
 	{
@@ -159,10 +166,5 @@ class AdminAddController extends Controller {
 		}
 
 		}
-	}
-
-	function addVideo($f3)
-	{
-
 	}
 
