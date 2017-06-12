@@ -18,8 +18,12 @@ class CartController extends Controller
 
 			array_push($cartProduct ,$product);
 
+			$totalPrice = $totalPrice + $product[0]['productPrice'];
+
 		}
 
+
+		$f3->set('total', $totalPrice);
 		$f3->set('cart',$cartProduct);
 		$template = new Template;
 		echo $template->render('cart.htm');

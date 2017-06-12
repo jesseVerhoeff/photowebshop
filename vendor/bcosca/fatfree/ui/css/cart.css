@@ -34,6 +34,11 @@ body {
     display: flex;
 }
 
+.video {
+    margin-right: 50px;
+}
+
+
 .item:nth-child(3) {
     border-top:  1px solid #E1E8EE;
     border-bottom:  1px solid #E1E8EE;

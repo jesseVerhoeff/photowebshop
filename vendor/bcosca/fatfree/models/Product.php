@@ -17,8 +17,8 @@ class Product extends DB\SQL\Mapper{
 
 	}
 
-	public function add($productName, $productDescription, $productType, $productPrice, $productLink ) {
-		return $this->db->exec("INSERT INTO products (productName, productDescription, productType, productLink, productPrice) VALUES ('$productName','$productDescription', '$productType', '$productLink', '$productPrice') ");
+	public function add($productName, $productDescription, $productCategory, $productType, $productPrice, $productLink ) {
+		return $this->db->exec("INSERT INTO products (productName, productDescription, productCategory, productType, productLink, productPrice) VALUES ('$productName','$productDescription', '$productCategory', ' $productType', '$productLink', '$productPrice') ");
 	}
 
 	public function edit($id) {

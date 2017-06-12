@@ -116,18 +116,20 @@ class AdminAddController extends Controller {
 			$productPrice = $this->f3->get('POST.productPrice');
 			$productLink = $photoLink;
 			$productType = 0;
+			$productCategory = $this->f3->get('POST.productCategory');
+
+//			var_dump($productCategory);
 
 			$photo = $this->f3->get('FILES');
 
 
 			$products = new Product($this->db);
-			$product = $products->add($productName, $productDescription, $productType, $productPrice, $productLink);
+			$product = $products->add($productName, $productDescription, $productCategory, $productType, $productPrice, $productLink);
 
 		}
 		elseif($filetype == "video") {
 
 			$target_dir = "./uploads/";
-
 			$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 
 			$upd = $_FILES["fileToUpload"];
@@ -153,12 +155,13 @@ class AdminAddController extends Controller {
 					$productName = $this->f3->get('POST.productName');
 					$productDescription = $this->f3->get('POST.productDescription');
 					$productPrice = $this->f3->get('POST.productPrice');
+					$productCategory = $this->f3->get('POST.productCategory');
 					$productLink = $videoLink;
 					$productType = 1;
 
 
 					$products = new Product($this->db);
-					$product = $products->add($productName, $productDescription, $productType, $productPrice, $productLink);
+					$product = $products->add($productName, $productDescription, $productCategory, $productType, $productPrice, $productLink);
 
 				}
 			}

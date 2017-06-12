@@ -14,7 +14,7 @@
         <div class="thumbnail">
             <check if="{{ @item.productType=='0' }}">
                 <!--<img src="../lib/watermark.php?image=./{{ '../uploads/'.@item.productLink }}&watermerk=../uploads/smallwatermark.jpg" alt="..." height="1080" width="1920">-->
-                <img src="/image.php?a=img={{@item.productLink }}-w_img=smallwatermark.jpg-w_w=100-w_h=100"  alt="..."  >
+                <img src="/image.php?a=img={{@item.productLink }}-w_img=smallwatermark.jpg-w_w=100-w_h=100"  alt="..." width="1920" height="1080"  >
 
             </check>
             <check if="{{ @item.productType=='1' }}">
@@ -22,7 +22,7 @@
                     <!--<source src="{{ '../uploads/'.@item.productLink }}"  type="video/mp4">-->
 
                 <!--</video>-->
-                <video width="466" controls controlsList="nodownload nofullscreen noremoteplayback">
+                <video width="466" controls controlsList="nodownload nofullscreen noremoteplayback" >
                     <source src="/video.php?a=video={{@item.productLink}}"  type="video/mp4">
                 </video>
             </check>
@@ -39,3 +39,7 @@
 
 
 </div>
+<script>
+
+
+</script>

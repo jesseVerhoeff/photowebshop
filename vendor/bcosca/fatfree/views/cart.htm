@@ -21,19 +21,37 @@
                 </false>
 
             </check>
-            <div class="image">
-                <img src="{{ '../uploads/'.@item.0.productLink }}" alt="" height="108" width="192" />
-            </div>
+            <check if="{{ @item.0.productType=='0' }}">
+                <true>
+                    <div class="image">
+                        <!--<img src="{{ '../uploads/'.@item.0.productLink }}" alt="" height="108" width="192" />-->
+                        <img src="/image.php?a=img={{@item.0.productLink }}-w_img=smallwatermark.jpg-w_w=100-w_h=100"  alt="..." width="192" height="108"  >
+                    </div>
+                </true>
+                <false>
+                    <video class="video" width="192" nocontrols controlsList="nodownload nofullscreen noremoteplayback">
+                        <source src="/video.php?a=video={{@item.0.productLink}}"  type="video/mp4">
+                    </video>
+                </false>
+
+            </check>
+
 
             <div class="description">
                 <span>{{@item.0.productName}}</span>
 
                 <span>{{@item.0.productDescription}}</span>
+
+                <span>{{@item.0.productCategory}}</span>
             </div>
 
             <div class="total-price">${{@item.0.productPrice}}</div>
         </div>
     </repeat>
+    <div class="item">
+
+        <div class="total-price">${{@total}}</div>
+    </div>
 
 
     <a class="btn btn-lg btn-primary " href="/" type="submit">Bestellen</a>
