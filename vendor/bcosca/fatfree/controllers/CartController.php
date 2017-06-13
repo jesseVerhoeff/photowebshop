@@ -31,7 +31,17 @@ class CartController extends Controller
 
 	function addProduct($f3, $params) {
 
-		array_push($_SESSION['cart'],$params['item']);
+//		array_push($_SESSION['cart'],$params['item']);
+
+
+		$value = $params['item'];
+		$a = $_SESSION['cart'];
+
+		if (!in_array($value, $a)){
+			echo 'test';
+			array_push($_SESSION['cart'],$params['item']);
+			$this->f3->reroute('/products');
+		}
 
 		$this->f3->reroute('/products');
 	}
