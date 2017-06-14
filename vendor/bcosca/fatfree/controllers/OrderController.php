@@ -33,8 +33,8 @@ class OrderController extends Controller
 
 
 
-//		$template = new Template;
-//		echo $template->render('order.htm');
+		$template = new Template;
+		echo $template->render('order.htm');
 	}
 
 }

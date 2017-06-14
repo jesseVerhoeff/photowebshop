@@ -5,6 +5,11 @@ class CartController extends Controller
 
 	function render($f3)
 	{
+		$id = $this->f3->get('SESSION.userId');
+		if($id == NULL)
+		{
+			$this->f3->reroute('/login');
+		}
 
 		if(empty($cartProduct)) {
 			$cartProduct = array();

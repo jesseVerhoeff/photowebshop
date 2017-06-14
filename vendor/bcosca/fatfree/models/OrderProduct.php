@@ -13,7 +13,12 @@ class OrderProduct extends DB\SQL\Mapper{
 	}
 
 	public function getById($id) {
-		return $this->db->exec("SELECT * FROM orderproduct WHERE orderProductId = '$id'");
+		return $this->db->exec("SELECT * FROM orderproduct WHERE userId = '$id'");
+
+	}
+
+	public function getByIdD($id) {
+		return $this->db->exec("SELECT * FROM orderproduct LEFT JOIN products ON orderproduct.productId = products.productId WHERE orderproduct.userId = '$id'");
 
 	}
 

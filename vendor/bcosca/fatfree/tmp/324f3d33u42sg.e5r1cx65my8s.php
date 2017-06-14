@@ -54,7 +54,7 @@
     </div>
 
 
-    <a class="btn btn-lg btn-primary " href="/" type="submit">Bestellen</a>
+    <a class="btn btn-lg btn-primary " href="/order" type="submit">Bestellen</a>
 
 
 </div>

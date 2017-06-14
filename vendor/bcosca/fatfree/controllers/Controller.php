@@ -45,8 +45,8 @@ class Controller {
 		<ul class="nav nav-tabs">
 			<li role="presentation" class="active"><a href="/">Home</a></li>
 			<li role="presentation"><a href="/products">Products</a></li>
-			<li role="presentation"><a href="#">Messages</a></li>
-			<li role="presentation"><a href="#">Messages</a></li>
+			<li role="presentation"><a href="/downloads">Downloads</a></li>
+<!--			<li role="presentation"><a href="#">Messages</a></li>-->
             <li role="presentation" class="pull-right"><a href="/logout">Logout</a></li>
             <li role="presentation" class="pull-right"><a href="/shoppingcart">Shopping cart</a></li>
 		</ul>
