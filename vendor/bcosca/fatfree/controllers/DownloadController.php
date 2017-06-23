@@ -17,7 +17,7 @@ class DownloadController extends Controller{
 
 		$f3->set('product',$product);
 		$template=new Template;
-		echo $template->render('download.htm');
+		echo $template->render('/download.htm');
 
 //		$f3->set('product',$this->db->exec('SELECT * FROM products'));
 //		echo Template::instance()->render('products.htm');

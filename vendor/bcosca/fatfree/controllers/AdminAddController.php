@@ -12,7 +12,7 @@ class AdminAddController extends Controller {
 		}
 
 		$template=new Template;
-		echo $template->render('admin/addProduct.htm');
+		echo $template->render('/admin/addProduct.htm');
 	}
 
 
@@ -126,6 +126,7 @@ class AdminAddController extends Controller {
 			$products = new Product($this->db);
 			$product = $products->add($productName, $productDescription, $productCategory, $productType, $productPrice, $productLink);
 
+			$this->f3->reroute('/products');
 		}
 		elseif($filetype == "video") {
 
@@ -162,6 +163,9 @@ class AdminAddController extends Controller {
 
 					$products = new Product($this->db);
 					$product = $products->add($productName, $productDescription, $productCategory, $productType, $productPrice, $productLink);
+
+
+					$this->f3->reroute('/products');
 
 				}
 			}

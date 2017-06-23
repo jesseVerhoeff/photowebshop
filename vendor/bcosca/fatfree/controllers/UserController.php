@@ -13,6 +13,8 @@ class UserController extends Controller {
 		$this->f3->clear('SESSION.userUsername');
 		$this->f3->clear('SESSION.userId');
 		$this->f3->clear('SESSION.cart');
+		$this->f3->clear('SESSION.adminUsername');
+		$this->f3->clear('SESSION.adminId');
 		$this->f3->reroute('/login');
 	}
 
@@ -38,6 +40,7 @@ class UserController extends Controller {
 			$this->f3->set('SESSION.userUsername',$user->userUsername);
 			$this->f3->set('SESSION.userId',$user->userId);
 			$this->f3->reroute('/');
+//			header('Location: ' . $_SERVER['HTTP_REFERER']);
 
 		}
 		else {

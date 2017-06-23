@@ -23,7 +23,11 @@ class OrderProduct extends DB\SQL\Mapper{
 	}
 
 	public function add($userid, $productid ) {
-		return $this->db->exec("INSERT INTO orderproduct (userId, productId) VALUES ('$userid','$productid') ");
+		return $this->db->exec("INSERT INTO orderproduct (userId, productId) VALUES ('$userid','$productid')");
+	}
+
+	public function check($userid, $productid) {
+		return $this->db->exec("SELECT * FROM orderproduct WHERE userId = '$userid' AND productId = '$productid'");
 	}
 
 	public function edit($id) {

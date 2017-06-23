@@ -19,5 +19,20 @@ class ProductController extends Controller{
 
 	}
 
+	function modelRender($f3, $params) {
+
+		$products = new Product($this->db);
+		$product = $products->getByCategory($params['cat']);
+
+		$username = $this->f3->get('SESSION.userUsername');
+		$f3->set('product',$product);
+		$f3->set('username',$username);
+		$template=new Template;
+		echo $template->render('products.htm');
+
+	}
+
+
+
 
 }

@@ -21,6 +21,10 @@ class Download extends DB\SQL\Mapper{
 		return $this->db->exec("INSERT INTO downloads (userId, productId, downloadDate) VALUES ('$userid','$productId', '$date') ");
 	}
 
+	public function getByDate($downloadDate) {
+		return $this->db->exec("SELECT * FROM downloads LEFT JOIN products ON downloads.productId = products.productId LEFT JOIN user ON downloads.userId = user.userId WHERE downloadDate > '$downloadDate' AND downloads.userId <> 0 AND downloads.productId <> 0");
+	}
+
 	public function edit($id) {
 		$this->load(array('id=?', $id));
 		$this->copyFrom('POST');

@@ -39,9 +39,9 @@
 </div>
 	<div class="col-md-4">
 		<ul class="list-group">
-			<li class="list-group-item">Landen</li>
-			<li class="list-group-item">modellen</li>
-			<li class="list-group-item">Nieuws</li>
+			<li class="list-group-item"><a href="/products/landen">Landen</a></li>
+			<li class="list-group-item"><a href="/products/modellen">Modellen</a></li>
+			<li class="list-group-item"><a href="/products/nieuws"> Nieuws</a></li>
 
 		</ul>
 	</div>

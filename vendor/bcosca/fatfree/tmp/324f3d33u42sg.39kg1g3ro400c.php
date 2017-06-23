@@ -14,7 +14,7 @@
         <div class="thumbnail">
             <?php if ($item['productType']=='0'): ?>
                 <!--<img src="../lib/watermark.php?image=./<?php echo '../uploads/'.$item['productLink']; ?>&watermerk=../uploads/smallwatermark.jpg" alt="..." height="1080" width="1920">-->
-                <img src="/image.php?a=img=<?php echo $item['productLink']; ?>-w_img=smallwatermark.jpg-w_w=100-w_h=100"  alt="..." width="1920" height="1080"  >
+                <img src="/image.php?a=img=<?php echo $item['productLink']; ?>-w_img=smallwatermark.jpg-w=600-w_w=40-w_h=40"  alt="..." width="1920" height="1080"  >
 
             <?php endif; ?>
             <?php if ($item['productType']=='1'): ?>

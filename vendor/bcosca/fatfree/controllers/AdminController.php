@@ -5,7 +5,7 @@ class AdminController extends Controller {
 	function render(){
 
 		$template=new Template;
-		echo $template->render('admin/login.htm');
+		echo $template->render('/admin/login.htm');
 	}
 
 	function logout()
@@ -40,6 +40,7 @@ class AdminController extends Controller {
 			$this->f3->reroute('/');
 
 		}
+
 		else {
 
 			$this->f3->reroute('/login');

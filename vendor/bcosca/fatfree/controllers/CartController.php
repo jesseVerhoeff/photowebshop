@@ -15,6 +15,11 @@ class CartController extends Controller
 			$cartProduct = array();
 		}
 
+		if(empty($_SESSION['cart'])) {
+
+			$this->f3->reroute('/products');
+		}
+
 		foreach ($_SESSION['cart'] as $i => $value) {
 
 

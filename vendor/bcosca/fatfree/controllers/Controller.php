@@ -46,8 +46,40 @@ class Controller {
 			<li role="presentation" class="active"><a href="/">Home</a></li>
 			<li role="presentation"><a href="/products">Products</a></li>
 			<li role="presentation"><a href="/downloads">Downloads</a></li>
+		<?php
+		if($this->f3->get('SESSION.adminId') == null) {
+			?>
+
+            <?php
+            }
+            else
+            {
+            ?>
+                <li role="presentation"><a href="/admin/addProduct">Add product</a></li>
+                <li role="presentation"><a href="/admin/downloads">Overzicht</a></li>
+				<?php
+
+			}
+		?>
+
 <!--			<li role="presentation"><a href="#">Messages</a></li>-->
-            <li role="presentation" class="pull-right"><a href="/logout">Logout</a></li>
+            <?php
+            	    if($this->f3->get('SESSION.userUsername') == null) {
+                            ?>
+                    <li role="presentation" class="pull-right"><a href="/login">Login</a></li>
+                            <?php
+
+					}
+					else
+					    {
+							?>
+                            <li role="presentation" class="pull-right"><a href="/logout">Logout</a></li>
+							<?php
+
+                        }
+            ?>
+
+<!--            <li role="presentation" class="pull-right"><a href="/logout">Logout</a></li>-->
             <li role="presentation" class="pull-right"><a href="/shoppingcart">Shopping cart</a></li>
 		</ul>
 
