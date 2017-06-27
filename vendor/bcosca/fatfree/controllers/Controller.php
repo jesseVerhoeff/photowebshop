@@ -60,10 +60,7 @@ class Controller {
 				<?php
 
 			}
-		?>
 
-<!--			<li role="presentation"><a href="#">Messages</a></li>-->
-            <?php
             	    if($this->f3->get('SESSION.userUsername') == null) {
                             ?>
                     <li role="presentation" class="pull-right"><a href="/login">Login</a></li>

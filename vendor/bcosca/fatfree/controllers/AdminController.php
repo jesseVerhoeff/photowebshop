@@ -2,9 +2,10 @@
 
 class AdminController extends Controller {
 
-	function render(){
+	function render($f3, $params){
 
 		$template=new Template;
+		$f3->set('item',$params['link']);
 		echo $template->render('/admin/login.htm');
 	}
 
@@ -21,7 +22,7 @@ class AdminController extends Controller {
 
 	}
 
-	function authenticate(){
+	function authenticate($admin, $params){
 
 		$adminEmail = $this->f3->get('POST.adminEmail');
 		$password = $this->f3->get('POST.password');
@@ -37,7 +38,10 @@ class AdminController extends Controller {
 		if(password_verify($password, $admin->adminPassword)){
 			$this->f3->set('SESSION.adminUsername',$admin->adminUsername);
 			$this->f3->set('SESSION.adminId',$admin->adminId);
-			$this->f3->reroute('/');
+			$link = $params['link'];
+			var_dump($params['link']);
+			die();
+			$this->f3->reroute('/admin/' . $link);
 
 		}
 

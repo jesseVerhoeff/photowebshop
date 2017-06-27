@@ -2,9 +2,10 @@
 
 class UserController extends Controller {
 
-	function render(){
+	function render($f3, $params){
 
 		$template=new Template;
+		$f3->set('link',$params['link']);
 		echo $template->render('login.htm');
 	}
 
@@ -23,7 +24,8 @@ class UserController extends Controller {
 
 	}
 
-	function authenticate(){
+	function authenticate($user, $params){
+
 
 		$useremail = $this->f3->get('POST.useremail');
 		$password = $this->f3->get('POST.password');
@@ -39,7 +41,9 @@ class UserController extends Controller {
 		if(password_verify($password, $user->userPassword)){
 			$this->f3->set('SESSION.userUsername',$user->userUsername);
 			$this->f3->set('SESSION.userId',$user->userId);
-			$this->f3->reroute('/');
+			$link = $params['link'];
+
+			$this->f3->reroute('/' . $link);
 //			header('Location: ' . $_SERVER['HTTP_REFERER']);
 
 		}

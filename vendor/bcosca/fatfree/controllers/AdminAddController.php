@@ -7,7 +7,7 @@ class AdminAddController extends Controller {
 
 		if($this->f3->get('SESSION.adminUsername') == null) {
 
-			$this->f3->reroute('/admin/login');
+			$this->f3->reroute('/admin/login/addproduct');
 			exit;
 		}
 

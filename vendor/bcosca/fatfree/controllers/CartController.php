@@ -8,7 +8,7 @@ class CartController extends Controller
 		$id = $this->f3->get('SESSION.userId');
 		if($id == NULL)
 		{
-			$this->f3->reroute('/login');
+			$this->f3->reroute('/login/shoppingcart');
 		}
 
 		if(empty($cartProduct)) {

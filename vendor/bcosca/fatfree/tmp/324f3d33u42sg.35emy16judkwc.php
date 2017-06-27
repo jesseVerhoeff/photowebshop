@@ -21,13 +21,13 @@
 
 <div class="container">
 
-    <form class="form-signin" method="POST" action="/authenticate">
+    <form class="form-signin" method="POST" action="/authenticate/<?php echo $link; ?>">
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="useremail" class="sr-only">Username</label>
         <input type="text" id="useremail" name="useremail" class="form-control" placeholder="User Email" required="" autofocus="">
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required="">
-        <a href="/register">Registreren </a>
+        <a href="/register"><?php echo $link; ?> </a>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
 
